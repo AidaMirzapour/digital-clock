@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  background: url(image/photo1.avif);
+  overflow: hidden;
+  background-size: cover;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.time {
+  display: flex;
+}
+
+.time div {
+  margin: 5px;
+}
+
+.time span {
+    color: white;
+  width: 100px;
+  height: 80px;
+  align-items: center;
+  background-color: rgba(220, 130, 238, 0.6);
+  font-size: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-shadow: rgba(0, 0, 0, 0.479) 2px 2px 4px;
+  font-family: sans-serif;
+}
+
+span#text {
+  font-size: 10px;
+  background-color: rgba(91, 96, 158, 0.6);
+  justify-content: center;
+  height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.time #amorpm {
+  top: 50%;
+  position: absolute;
+  font-family: sans-serif;
+  height: 30px;
+  width: 60px;
+  font-size: 15px;
+  background-color: rgba(255, 187, 178, 0.6);
+  justify-content: center;
+}
