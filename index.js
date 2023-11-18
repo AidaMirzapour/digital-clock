@@ -4,7 +4,6 @@ const sec = document.getElementById("seconds");
 const ampm = document.getElementById("amorpm");
 
 function updateClock() {
-  debugger;
   let h = new Date().getHours();
   let m = new Date().getMinutes();
   let s = new Date().getSeconds();
